@@ -1,0 +1,126 @@
+html {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+}
+
+
+#header{
+    border-bottom: 1px solid gray; 
+    display: flex; 
+    padding: 10px 100px; 
+    justify-content: space-between   
+}
+div{
+    display: block;
+}
+
+
+#header-right{
+     display: flex;
+     align-items: center
+}
+
+p {
+    margin-right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+}
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+
+
+div#introduction-text{
+    font-style:normal;
+    font-weight:600px;
+    font-size: 0.8em;
+    padding: 40px;
+    margin-left:10px;
+    justify-content:center;
+    letter-spacing: -0.4px;
+    line-height: 33.6px;
+    text-align: center;
+}
+
+div#introduction-actions {  
+    text-align: center;
+    padding: 10px;
+}
+
+.redondo{
+    margin-left: 14px;
+    border-radius: 2em;
+    border: 3px solid black;
+    padding: 0 1.2em;
+    font-size: 1em;
+}
+
+.fusion-body .fusion-button.button-2 {
+    border-color: var(--awb-color5);
+    border-radius: 20px 20px 20px 20px;
+    background: rgba(255,255,255,0);
+}
+
+.fusion-button-text {  
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 2em;
+    border: 2.5px solid black;
+    padding: 0.5em 1.8em;
+    font-size: 0.8em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.redondoColor{
+    background-color: white;
+    border: 2px solid rgb(107, 83, 240);
+    color: rgb(107, 83, 240);
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.fusion{
+   
+    margin-top: 80px;
+    padding: 120px 20px; 
+    background-color: black;
+    padding-top:18em;
+    
+}
+
+   h2{
+    color: white;
+   }
+
+
+
+@media (width >=2700px){
+    html {
+        font-size: 20px;
+    }
+}
+
+@media (width >=3200px){
+    html {
+        font-size: 32px;
+    }
+}
+    
+
